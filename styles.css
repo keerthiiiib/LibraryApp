@@ -1,0 +1,75 @@
+body {
+    background-color: #2d2a25; /* Dark background */
+    color: #f0e1d2; /* Light text color */
+    font-family: 'Georgia', serif; /* Elegant serif font */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #5b4c48; /* Dark button background */
+    color: #f0e1d2; /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8b5b5b; /* Lighter on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+#library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #3c3530; /* Dark card background */
+    border: 1px solid #8b5b5b; /* Card border color */
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+input {
+    width: calc(100% - 20px); /* Full width inputs */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #8b5b5b; /* Input border color */
+    border-radius: 5px;
+    background-color: #4b3a36; /* Darker input background */
+    color: #f0e1d2; /* Input text color */
+}
+
+input:focus {
+    border-color: #f0e1d2; /* Light border on focus */
+    outline: none;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
